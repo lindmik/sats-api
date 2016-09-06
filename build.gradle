@@ -1,0 +1,15 @@
+wrapper {
+  gradleVersion = '3.0'
+}
+
+apply plugin: 'java'
+apply plugin: 'eclipse'
+
+repositories {
+  jcenter()
+}
+
+dependencies {
+  compile 'com.google.http-client:google-http-client:1.22.0'
+  compile 'com.google.http-client:google-http-client-jackson2:1.22.0'
+}
